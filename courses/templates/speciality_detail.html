@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %} Speciality detail page {% endblock %}
+
+{% block body %}
+    <h1>Speciality Detail Page</h1>
+    <p><b>Speciality name</b> {{ speciality.name }} </p>
+    <p><b>Speciality code</b> {{ speciality.code }} </p>
+    <p><b>Speciality Created Date</b> {{ speciality.created_at }} </p> 
+    <p><b>Speciality Slug</b> {{ speciality.slug }} </p> 
+
+{% endblock %}
